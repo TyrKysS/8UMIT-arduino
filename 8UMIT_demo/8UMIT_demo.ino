@@ -97,7 +97,7 @@ const int patternLength = 10;
 /******************************************************************
  * Acustic configuration
  ******************************************************************/
-int minusThreshold = -300, plusThreshold = 300, tolerance = 200;
+int minusThreshold = -300, plusThreshold = 300, tolerance = 100;
 int time = 0, previousTime = 0, deadlineTime = 0;
 bool clap = false, preclap = false, passTreshold = false;
 
